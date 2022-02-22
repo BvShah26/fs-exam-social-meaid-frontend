@@ -27,7 +27,7 @@ const Home = () => {
   };
 
   const updatePost = () => {
-    console.log("getDataForEdit", editPost);
+    console.log("geDataForEdit", editPost);
     axios
       .put(`/post/update/${editPost._id}`, {
         postId: editPost.pid,
